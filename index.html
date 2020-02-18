@@ -10,13 +10,13 @@
 </head>
 
 <body>
-       <header>
+       <header class="title">
               <h1>My first website</h1>
               <img class="one" src="./img/logo.png" alt="it´s just example image">
 
        </header>
        <nav>
-              <ul>
+              <ul id="nav">
                      <li>
                             <a href="#">Inicio</a>
                             <ol>
@@ -38,14 +38,10 @@
        </nav>
        <section>
               <article>
-                     <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam commodi quidem placeat ea fuga,
-                            et fugit ducimus sequi, hic sunt, repudiandae eius similique nemo velit perferendis impedit
-                            aperiam accusantium adipisci! Lorem, <strong> dolor sit amet consectetur adipisicing elit. Iure
-                            placeat fuga mollitia at nisi, fugit nemo voluptatum deserunt fugiat quibusdam iusto </p>
-                            dignissimos provident accusamus animi, officia voluptates </strong>exercitationem impedit quos? Lorem
-                            ipsum dolor sit, amet consectetur adipisicing elit. Quam ipsum ullam corrupti, repellendus
-                            laborum hic numquam expedita voluptatibus? A non eveniet iure quas ut rerum illo odio
-                            deleniti quidem blanditiis! Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br/> dolorum, excepturi beatae, totam reprehenderit nihil tempore minima laudantium quos voluptas dolore laboriosam obcaecati iste accusamus molestiae nemo eum earum assumenda?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab vitae labore suscipit ratione aliquam inventore expedita iusto neque totam consequatur sint, non sunt repellendus natus deserunt quo exercitationem illo doloribus. <blockquote> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nam quo corrupti nulla eos id sapiente sint repellat laudantium libero, perspiciatis nisi aspernatur, vitae, cum officia possimus soluta! Cum, nihil?</blockquote></p>
+                     <p id="textOne">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente ducimus eveniet aperiam officia qui, aspernatur recusandae aliquid eaque delectus ipsam nostrum ea quia quas alias, voluptatibus labore animi incidunt ab. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus sit eveniet tempora provident minima. Ex dolor eligendi in exercitationem perferendis omnis accusantium <br>    voluptatibus reprehenderit eum id. A placeat ea illum? Lorem, ipsum dolor sit amet <strong> consectetur adipisicing elit. Temporibus et quod iure, possimus quibusdam, impedit nobis labore, accusantium voluptates aut quidem doloremque. Eaque qui nostrum asperiores, voluptate inventore delectus! Ipsum?</strong></p>
+                            <p id="textTwo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum aspernatur, iusto repellendus vero esse eos placeat eum ea obcaecati aut delectus deserunt officiis veritatis recusandae quae blanditiis perferendis alias incidunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga obcaecati facere voluptatibus quisquam rem minus, neque consequatur rerum suscipit placeat adipisci aspernatur, asperiores recusandae? Ullam commodi veniam numquam officiis nisi.</p>
+              <p class="textThree">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quibusdam aut hic cupiditate distinctio iste labore tempore nemo recusandae facere numquam reiciendis dolore quis neque, eum voluptatem veniam quos placeat? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat saepe doloremque facere porro laboriosam fugiat, provident sequi itaque quas vitae veniam hic ea nobis. Corrupti accusanum sequi deleniti, consequatur eveniet sapiente.</p>
+              <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quod ad odit minus voluptate nulla ea neque maiores? Nemo, non quaerat culpa vitae perspiciatis odit. Perferendis repellendus fugiat consequuntur minima Lorem ipsum dolor sit amet consectetur <span class="mySpan"> elit. Fugiat perferendis totam accusantium fuga asperiores similique fugit nesciunt vitae est placeat eveniet veritatis tempora reiciendis consequuntur nemo ab voluptatem, suscipit aliquam..</span> </blockquote>
               </article>
        </section>
        <aside>
@@ -73,12 +69,12 @@
               <td>space 2  2</td>
               <td>space 2  3</td>
        </table>
-       <form>
+       <form >
               <label for="Name">Name</label>
               <input type="text" name="name" placeholder="Name">
               <br>
               <label for="password">password</label>
-              <input type="password" name="password" placeholder="pass">
+              <input type="password" name="password" placeholder="pass" minlength="19" maxlength="50">
               <br>
               <label for="email">writer your email</label>
               <input type="email" name="email" id="email" placeholder="email" required>
