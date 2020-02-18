@@ -6,12 +6,13 @@
 
 .one{
        width: 90px;
+       height: 90px;
        display: flex;
+       background-color: #eee;
+       overflow: visible;
           
 }
-.navOne{
-       
-}
+
 body{
        background-color: beige;
 }
@@ -37,9 +38,9 @@ p{
        padding: 10px;
 }
 #textOne{
-       color: white;
-       background-color: rgb(165, 116, 116)
-
+       
+      text-align: justify;
+      
       
        
        
@@ -58,11 +59,6 @@ p{
 [border] {
        background-color: slateblue;
 }
-.mySpan{
-       text-decoration: overline underline line-through;
-       text-shadow: 2px 2px 3px green;
-
-}
 blockquote{
        border: 3px solid;
        margin: 5px;
@@ -72,18 +68,12 @@ footer{
        background-color: grey;
        border: groove;
 }
-#nav{
-       display: flex;
-       text-emphasis: center;
-       justify-content: space-between;
-       font-size: 20px;
-       border: 5px;
-}
-nav>ul>li{
-       color: red;
-}
+
+
 nav a{
        text-decoration: none;
+       
+       
 }
 form{
               
@@ -101,4 +91,25 @@ ul {
 
        align-items: center;
 
+}
+
+.imgOne{
+       width: 150px;
+       height: 100px;
+       float: left;
+       
+     
+       
+}
+
+section{
+       width: 100%;
+       display: flex;
+       padding: 7px;
+
+}
+.imgTwo{
+       width: 150px;
+       height: 100px;
+       float: left;
 }
